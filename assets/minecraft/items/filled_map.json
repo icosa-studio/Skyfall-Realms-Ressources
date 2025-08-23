@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "select",
+		"property": "display_context",
+		"cases": [
+			{
+				"when": [ "gui", "fixed" ],
+				"model": {
+					"type": "model",
+					"model": "item/filled_map"
+				}
+			}
+		],
+		"fallback": {
+			"type": "model",
+			"model": "item/filled_map_alt"
+		}
+	}
+}

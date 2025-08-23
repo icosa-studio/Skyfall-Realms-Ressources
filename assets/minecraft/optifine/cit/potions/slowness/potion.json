@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated_custom2",
+  "textures": {
+    "layer0": "item/potions/slowness",
+    "layer1": "item/potions/cap_normal"
+  }
+}
